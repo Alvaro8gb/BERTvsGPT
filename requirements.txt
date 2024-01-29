@@ -1,0 +1,4 @@
+python-dotenv
+spacy==3.7.2
+spacy-transformers
+sklearn

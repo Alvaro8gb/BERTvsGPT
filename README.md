@@ -20,8 +20,27 @@ This study marks a significant advancement in Spanish EHR Named Entity Recogniti
 
 ### Repository Structure
 
-- `BERT/`: .
-- `GPT/`: .
+This repository is organized into the following sections:
+
+#### `BERT` [ref](./BERT)
+
+This section contains the code for performing Named Entity Recognition (NER) using BERT. The implementation includes a K-fold cross-validation approach for training.
+
+#### `GPT` [ref](./GPT)
+
+In this section, you'll find the code for performing Named Entity Recognition (NER) with GPT. 
+The use the  `@@entity##` format to extract entities from the clinical notes.
+
+#### `Data` [ref](./data)
+
+The `data/` directory does not contain the actual datasets due to privacy agreements with the hospital. However, scripts for conducting Exploratory Data Analysis (EDA) and guidelines on how to load the corpus are provided. These resources offer valuable insights into the dataset structure and loading procedures while respecting privacy constraints.
+
+---
+
+### Help 
+Feel free to explore each section for detailed implementations and insights into the respective NER methods. If you have any questions or concerns, please refer to the documentation or contact the repository maintainers.
+
+---
 
 ### Set up
 

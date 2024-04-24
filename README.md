@@ -47,6 +47,8 @@ The use the  `@@entity##` format to extract entities from the clinical notes.
 
 The `data/` directory does not contain the actual datasets due to privacy agreements with the hospital. However, scripts for conducting Exploratory Data Analysis (EDA) and guidelines on how to load the corpus are provided. These resources offer valuable insights into the dataset structure and loading procedures while respecting privacy constraints.
 
+The prompts used in this paper are in [file](./data/prompts-clinical.xlsx)
+
 ---
 
 ### Help 

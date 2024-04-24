@@ -1,4 +1,4 @@
-# Spanish EHR Structuring Comparative Analysis BERT vs. GPT
+# GPT for medical entity recognition in Spanish
 
 ## Abstract
 
@@ -66,8 +66,19 @@ Install dependencies:
 
 ### Acknowledgments
 
-- This research is based on the paper [Title of the Paper], published in [Journal Name].
-- Authors: [Author1], [Author2], ...
+- This research is based on the paper [GPT for medical entity recognition in Spanish](https://link.springer.com/article/10.1007/s11042-024-19209-5), published in Multimedia Tools and Applications.
+- If you find it useful you can cite it in:
+```bibtext
+@article{10.1007/s11042-024-19209-5, 
+year = {2024}, 
+title = {{GPT for medical entity recognition in Spanish}}, 
+author = {García-Barragán, Álvaro and Calatayud, Alberto González and Solarte-Pabón, Oswaldo and Provencio, Mariano and Menasalvas, Ernestina and Robles, Víctor}, 
+journal = {Multimedia Tools and Applications}, 
+doi = {10.1007/s11042-024-19209-5}, 
+abstract = {{In recent years, there has been a remarkable surge in the development of Natural Language Processing (NLP) models, particularly in the realm of Named Entity Recognition (NER). Models such as BERT have demonstrated exceptional performance, leveraging annotated corpora for accurate entity identification. However, the question arises: Can newer Large Language Models (LLMs) like GPT be utilized without the need for extensive annotation, thereby enabling direct entity extraction? In this study, we explore this issue, comparing the efficacy of fine-tuning techniques with prompting methods to elucidate the potential of GPT in the identification of medical entities within Spanish electronic health records (EHR). This study utilized a dataset of Spanish EHRs related to breast cancer and implemented both a traditional NER method using BERT, and a contemporary approach that combines few shot learning and integration of external knowledge, driven by LLMs using GPT, to structure the data. The analysis involved a comprehensive pipeline that included these methods. Key performance metrics, such as precision, recall, and F-score, were used to evaluate the effectiveness of each method. This comparative approach aimed to highlight the strengths and limitations of each method in the context of structuring Spanish EHRs efficiently and accurately.The comparative analysis undertaken in this article demonstrates that both the traditional BERT-based NER method and the few-shot LLM-driven approach, augmented with external knowledge, provide comparable levels of precision in metrics such as precision, recall, and F score when applied to Spanish EHR. Contrary to expectations, the LLM-driven approach, which necessitates minimal data annotation, performs on par with BERT’s capability to discern complex medical terminologies and contextual nuances within the EHRs. The results of this study highlight a notable advance in the field of NER for Spanish EHRs, with the few shot approach driven by LLM, enhanced by external knowledge, slightly edging out the traditional BERT-based method in overall effectiveness. GPT’s superiority in F-score and its minimal reliance on extensive data annotation underscore its potential in medical data processing.}}, 
+pages = {1--20}
+}
+```
 
 
 

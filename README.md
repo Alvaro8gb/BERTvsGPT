@@ -1,4 +1,5 @@
 # GPT for medical entity recognition in Spanish
+[![DOI](https://zenodo.org/badge/749733032.svg)](https://zenodo.org/doi/10.5281/zenodo.11184156)
 
 ## Abstract
 
